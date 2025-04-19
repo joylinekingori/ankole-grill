@@ -1,0 +1,95 @@
+.location{
+    display: flex;
+}
+.kitisuru{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/home\ one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:1200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+   
+}
+.kitisuru p{
+    font-size: 120%;
+        
+
+
+}
+.kitisuru h1{
+   font-size: 350%; 
+   font-family: Dom;
+
+}
+.kilimani{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/events1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:1200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+   
+}
+.kilimani p{
+    font-size: 120%;
+        
+
+
+}
+.kilimani h1{
+   font-size: 350%; 
+   font-family: Dom;
+
+}
+.navigation-bar {
+
+    justify-content: center;
+    gap: 10;
+    margin-left: 200px;
+    text-decoration: none;
+
+    background-color: #141414;
+    position: fixed;
+    border-radius: 80px;
+    margin-top: 1050px;
+    position: fixed;
+
+
+}
+
+
+.navigation-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+
+}
+
+#home {
+    text-decoration: none;
+    padding: 30px;
+
+    color: white;
+
+    font-size: 120%;
+    font-family: Dom;
+    justify-content: center;
+}
+
+.reservations {
+    background-color: gray;
+    height: 0.2px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding-bottom: 3px;
+}
+
+
