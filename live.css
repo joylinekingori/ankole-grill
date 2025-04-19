@@ -1,0 +1,283 @@
+@font-face {
+    font-family: agba;
+    src: url(./fonts/Argon_Regular1.otf);
+}
+
+@font-face {
+    font-family: Dom;
+    src: url(./fonts/Domine-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: jhm;
+    src: url(./fonts/JMH\ Typewriter\ \(1\).ttf)
+}
+.live {
+    height: 1200px;
+    width: 3000px;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 3)), url(images/background\ live.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+
+
+}
+
+.live-text {
+    position: absolute;
+    overflow: visible;
+    padding-top: 700px;
+    padding-left: 500px;
+    line-height: 10px;
+    position: fixed;
+
+}
+
+.live-text h1 {
+    font-size: 400%;
+    color: red;
+    font-family: Dom;
+
+}
+
+.live-text h2 {
+    font-size: 250%;
+}
+
+.live-svg {
+    position: absolute;
+    position: fixed;
+    overflow: visible;
+    padding-left: 400px;
+    padding-top: 100px;
+    width: 400px;
+    height: 400px;
+}
+
+.live-photos {
+    position: absolute;
+    overflow: visible;
+    width: 400px;
+    margin-left: 1400px;
+    margin-top: 100px;
+
+}
+.image{
+    height: 1200px;
+    margin-top: 1800px;
+    width: 100%;
+}
+.image::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 3))linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 3))linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 3)); */
+    /* z-index: 1;
+} 
+
+
+.live::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* background-color: rgba(0, 0, 0, 1); */
+    z-index: 1;
+} 
+
+#live-image {
+    padding-bottom: 200px;
+    width: 350px;
+    border-radius: 30px;
+    height: 400px;
+    
+
+}
+
+.live-one {
+    position: absolute;
+    overflow: visible;
+    margin-left: 1900px;
+    margin-top: 200px;
+    text-align: left;
+}
+.live-one p{
+    font-size: 120%;
+    color:red;
+    font-family: Dom;
+    
+}
+.live-one h2 {
+    font-size: 200%;
+    font-family: Dom;
+   
+}
+
+
+
+.live-two {
+    position: absolute;
+    overflow: visible;
+    margin-left: 1900px;
+    margin-top: 820px;
+    text-align: left;
+
+}
+.live-two p{
+    font-size: 120%;
+    color:red;
+    font-family: Dom;
+    
+}
+.live-two h2 {
+    font-size:200%;
+    font-family: Dom;
+   
+}
+
+.live-three {
+    position: absolute;
+    overflow: visible;
+    margin-left: 1900px;
+    margin-top: 1370px;
+    text-align: left;
+}
+.live-three p{
+    font-size: 120%;
+    color:red;
+    font-family: Dom;
+    
+}
+.live-three h2 {
+    font-size: 200%;
+    font-family: Dom;
+   
+}
+
+.live-events h2 {}
+
+.live-events p {
+    font-size: 150%;
+}
+.navigation-bar {
+
+    justify-content: center;
+    gap: 10;
+    margin-left: 200px;
+    margin-bottom: 30;
+    text-decoration: none;
+    position: fixed;
+
+    background-color: #141414;
+    position: fixed;
+    border-radius: 80px;
+    margin-top: 1030px;
+
+
+}
+
+
+.navigation-bar a {
+    float: left;
+    display: block;
+    text-align: center;
+
+}
+
+#home {
+    text-decoration: none;
+    padding: 30px;
+
+    color: white;
+
+    font-size: 120%;
+    font-family: Dom;
+    justify-content: center;
+}
+
+.reservations {
+    background-color: gray;
+    height: 0.2px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    padding-bottom: 3px;
+}
+.fadhilee{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(images/fadilee.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:3500px;
+    width: 90%;
+   
+}
+.navigation-bar-two {
+
+    justify-content: center;
+    gap: 10;
+    margin-left: 850px;
+    margin-bottom: 30;
+    text-decoration: none;
+    position: fixed;
+
+    background-color: #141414;
+    position: fixed;
+    border-radius: 80px;
+    margin-top: 1030px;
+
+
+}
+
+
+.navigation-bar-two a {
+    float: left;
+    display: block;
+    text-align: center;
+
+}
+.muguna{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(images/muguna.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height:3500px;
+    width: 90%;
+   
+}
+.navigation-bar-three {
+
+    justify-content: center;
+    gap: 10;
+    margin-left: 850px;
+    margin-bottom: 30;
+    text-decoration: none;
+    position: fixed;
+
+    background-color: #141414;
+    position: fixed;
+    border-radius: 80px;
+    margin-top: 1030px;
+
+
+}
+
+
+.navigation-bar-three a {
+    float: left;
+    display: block;
+    text-align: center;
+
+}
+
