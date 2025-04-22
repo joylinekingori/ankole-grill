@@ -27,8 +27,8 @@
     font-size: 300%;
     position: absolute;
     overflow: visible;
-    padding-top: 450px;
-    margin-left: 610px;
+    padding-top: 400px;
+    margin-left: 380px;
 
 }
 
@@ -36,40 +36,40 @@
     position: absolute;
     overflow: visible;
     margin-top: 70px;
-    margin-left: 500px;
+    margin-left: 270px;
     padding-bottom: 100px;
-    width: 350px;
+    width: 300px;
 }
 
 .menu h1 {
     color: white;
-    font-size: 500%;
+    font-size: 400%;
     font-family: Dom;
     color: orangered;
     position: absolute;
     overflow: visible;
-    padding-top: 500px;
-    margin-left: 500px;
+    padding-top: 450px;
+    margin-left: 320px;
 
 
 }
 .menu-two{
     background-color:black;
-    width: 90%;
+    width: 80%;
     padding-left: 70px;
 }
 .menu-nav {
     
     justify-content: center;
-    gap: 10;
-    margin-left: 700px;
+    gap: 7px;
+    margin-left: 500px;
     margin-bottom: 70px;
     text-decoration: none;
     position: fixed;
 }
 .breakfast-menu{
     display: flex;
-    gap: 600px;
+    gap: 400px;
 }
 
 
@@ -90,7 +90,7 @@
 }
 
 .menu-background {
-    width: 1300px;
+    width: 900px;
     height: 1200px;
     /* position: sticky;
     position: fixed;
@@ -102,7 +102,7 @@
 #br-one{
     display: flex;
     gap:200px;
-    font-size: 150%;
+    font-size: 130%;
     font-family: Dom;
     color: white;
     
@@ -110,18 +110,18 @@
 }
 #drinks{
     display: flex;
-    gap: 700px;
+    gap: 510px;
     list-style-type:none;
-    font-size: 150%;
+    font-size: 130%;
     font-family: Dom;
     color: white;
     
 }
 #cocktails{
     display: flex;
-    gap: 450px;
+    gap: 300px;
     list-style-type:none;
-    font-size: 150%;
+    font-size: 130%;
     font-family: Dom;
     color: white;
 
@@ -140,29 +140,29 @@
 }
 #description{
     width: 600px;
-    font-size:90%;
+    font-size:70%;
 }
 #breakfast{
     list-style-type:none;
-    font-size: 150%;
+    font-size: 130%;
     font-family: Dom;
     color: white;
 }
 #prices{
     list-style-type:none;
-    font-size: 150%;
+    font-size: 130%;
     font-family: Dom;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 
 }
 #coffee{
     color: orangered;
-    font-size: 250%;
+    font-size: 180%;
 }
 .title-breakfast{
-    padding-top: 300px;
+    padding-top: 200px;
     }
 
 .title-breakfast h1{
@@ -172,7 +172,7 @@
 
 }
 .title-breakfast p{
-    font-size: 150%;
+    font-size: 120%;
     font-family: Dom;
     color: white;
 
@@ -180,13 +180,13 @@
 #food{
     color: white;
     list-style: none;
-    font-size: 120%;
+    font-size: 100%;
     font-family: Dom;
 }
 .food-one h1{
     color: white;
     font-family: Dom;
-    font-size: 300%;
+    font-size: 240%;
 
 
 
@@ -194,7 +194,7 @@
 .food-one h5{
     color: white;
     font-family: Dom;
-    font-size: 180%;
+    font-size: 150%;
     color: orange;
     
 
@@ -217,13 +217,13 @@
 
     justify-content: center;
     gap: 10;
-    margin-left: 200px;
+    margin-left: 100px;
     text-decoration: none;
 
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 1050px;
+    margin-top: 780px;
     position: fixed;
 
 
@@ -239,11 +239,11 @@
 
 #home {
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
 
     color: white;
 
-    font-size: 120%;
+    font-size: 90%;
     font-family: Dom;
     justify-content: center;
 }
