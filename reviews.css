@@ -20,22 +20,24 @@
   
   #svg {
     float: inline-start;
-    padding-left: 1080px;
-    padding-top: 10px;
+    padding-left: 750px;
+    padding-top: 20px;
+    width: 300px;
+    height: 250px;
     
   }
   
   .reviews-heading {
-    font-size: 500%;
+    font-size: 400%;
     color: white;
     font-family: Dom;
-    padding-left: 1100px;
+    padding-left: 800px;
   
   }
   
   .slideshow-container {
     position: relative;
-    margin-top: 370px;
+    margin-top: 300px;
   }
   
   
@@ -49,7 +51,8 @@
     background-color: black;
     justify-content: center;
     width: 800px;
-    margin-left: 800px;
+    margin-left: 500px;
+    height: 150px;
   
   
   
@@ -61,7 +64,7 @@
     cursor: pointer;
     position: absolute;
     top: 50%;
-    width: 750px;
+    width: 450px;
     margin-top: -30px;
     padding: 16px;
     color: gray;
@@ -82,7 +85,7 @@
     font-size: 30px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    margin-left: 700px;
+    margin-left: 450px;
   }
   
   .prev {
@@ -101,14 +104,14 @@
   .navigation-bar {
   
     justify-content: center;
-    margin-left: 750px;
-    margin-bottom: 100px;
+    margin-left: 600px;
+    margin-bottom: 1;
     text-decoration: none;
   
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 1030px;
+    margin-top: 750px;
   
   
   }
@@ -123,9 +126,9 @@
   
   #home {
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
     color: white;
-    font-size: 120%;
+    font-size: 90%;
     font-family: Dom;
     justify-content: center;
   }
@@ -143,16 +146,16 @@
     font-size: 70px;
     position: absolute;
     overflow: visible;
-    padding-top: 100px;
-    padding-left:700px;
+    padding-top: 70px;
+    padding-left:450px;
   
   }
   #quote-two{
     font-size: 70px;
     position: absolute;
     overflow: visible;
-    padding-top: 300px;
-    padding-left: 1760px;
+    padding-top: 250px;
+    padding-left: 1400px;
   
     
   }

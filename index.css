@@ -22,7 +22,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 1200px;
+    height: 1000px;
     width: 100%;
 
 }
@@ -38,14 +38,13 @@
 
     justify-content: center;
     gap: 10;
-    margin-left: 820px;
+    margin-left: 520px;
     margin-bottom: 70px;
     text-decoration: none;
-
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 200px;
+    margin-top: 720px;
 
 
 }
@@ -80,12 +79,12 @@
 }
 
 .home-heading {
-    font-size: 900%;
+    font-size: 800%;
     color: black;
     position: absolute;
     overflow: visible;
-    margin-left: 950px;
-    margin-top: 500px;
+    margin-left: 650px;
+    margin-top: 350px;
     color: gray;
     font-family: jhm;
 
@@ -93,12 +92,12 @@
 }
 
 .home-savour {
-    font-size: 900%;
+    font-size: 800%;
     color: black;
     position: absolute;
     overflow: visible;
-    margin-left: 1010px;
-    margin-top: 500px;
+    margin-left: 710px;
+    margin-top: 380px;
     color: gray;
     font-family: jhm;
 
@@ -106,12 +105,12 @@
 }
 
 .home-taste {
-    font-size: 900%;
+    font-size: 800%;
     color: black;
     position: absolute;
     overflow: visible;
-    margin-left: 1050px;
-    margin-top: 500px;
+    margin-left: 750px;
+    margin-top: 380px;
     color: gray;
     font-family: jhm;
 
@@ -121,11 +120,11 @@
 
 
 #svg {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     overflow: visible;
-    margin-left: 1100px;
+    margin-left: 800px;
     margin-top: 70px;
 
 }
@@ -195,7 +194,7 @@
 }
 
 #one {
-    width: 3000px;
+    width: 2500px;
     height: 1200px;
 
 }

@@ -13,8 +13,8 @@
     src: url(./fonts/JMH\ Typewriter\ \(1\).ttf)
 }
 .live {
-    height: 1200px;
-    width: 3000px;
+    height: 900px;
+    width: 00px;
     position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 3)), url(images/background\ live.jpeg);
     background-repeat: no-repeat;
@@ -31,8 +31,8 @@
 .live-text {
     position: absolute;
     overflow: visible;
-    padding-top: 700px;
-    padding-left: 500px;
+    padding-top: 500px;
+    padding-left: 480px;
     line-height: 10px;
     position: fixed;
 
@@ -55,20 +55,19 @@
     overflow: visible;
     padding-left: 400px;
     padding-top: 100px;
-    width: 400px;
-    height: 400px;
-}
+    width: 300px;
+    height: 300px}
 
 .live-photos {
     position: absolute;
     overflow: visible;
-    width: 400px;
-    margin-left: 1400px;
+    width: 200px;
+    margin-left: 1100px;
     margin-top: 100px;
 
 }
 .image{
-    height: 1200px;
+    height: 1000px;
     margin-top: 1800px;
     width: 100%;
 }
@@ -107,7 +106,7 @@
 .live-one {
     position: absolute;
     overflow: visible;
-    margin-left: 1900px;
+    margin-left: 1500px;
     margin-top: 200px;
     text-align: left;
 }
@@ -118,7 +117,7 @@
     
 }
 .live-one h2 {
-    font-size: 200%;
+    font-size: 180%;
     font-family: Dom;
    
 }
@@ -128,7 +127,7 @@
 .live-two {
     position: absolute;
     overflow: visible;
-    margin-left: 1900px;
+    margin-left: 1500px;
     margin-top: 820px;
     text-align: left;
 
@@ -140,7 +139,7 @@
     
 }
 .live-two h2 {
-    font-size:200%;
+    font-size:180%;
     font-family: Dom;
    
 }
@@ -148,7 +147,7 @@
 .live-three {
     position: absolute;
     overflow: visible;
-    margin-left: 1900px;
+    margin-left: 1500px;
     margin-top: 1370px;
     text-align: left;
 }
@@ -159,7 +158,7 @@
     
 }
 .live-three h2 {
-    font-size: 200%;
+    font-size: 180%;
     font-family: Dom;
    
 }
@@ -181,7 +180,7 @@
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 1030px;
+    margin-top: 730px;
 
 
 }
@@ -196,11 +195,11 @@
 
 #home {
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
 
     color: white;
 
-    font-size: 120%;
+    font-size: 100%;
     font-family: Dom;
     justify-content: center;
 }

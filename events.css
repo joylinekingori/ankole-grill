@@ -75,7 +75,7 @@
     width: 32%;
     color: white;
     text-align: center;
-    padding-top: 400px;
+    padding-top: 300px;
 }
 .accra p{
     font-size: 120%;
@@ -113,10 +113,10 @@
 
 }
 .nairobi img{
-    width: 300px;
-    height: 300px;
-    margin-bottom: 52px;
-    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 32px;
+    margin-top: 20px;
  
  }
 .zanzibar{
@@ -129,7 +129,7 @@
     width: 35%;
     color: white;
     text-align: center;
-    padding-top: 400px;
+    padding-top: 300px;
 
 
 }
@@ -152,14 +152,14 @@
     
     justify-content: center;
     gap: 10;
-    margin-left: 800px;
+    margin-left: 580px;
     margin-bottom: 70px;
     text-decoration: none;
     
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 1030px;
+    margin-top: 770px;
     
 
 }
@@ -173,11 +173,11 @@
 }
 #home {
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
 
     color: white;
 
-    font-size: 120%;
+    font-size: 90%;
     font-family: Dom;
     justify-content: center;
 }

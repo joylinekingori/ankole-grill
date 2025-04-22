@@ -9,16 +9,16 @@
     overflow: visible;
     gap: 400px;
     color: white;
-    margin-left: 720px;
-    margin-top: 370px;
+    margin-left: 520px;
+    margin-top: 320px;
     border: white solid 1.5px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     text-align: left;
-    font-size: 170%;
+    font-size: 140%;
     padding-left: 5px;
     padding: 50px;
-    line-height: 1.5;
+    line-height: 1.2;
     font-family: Dom;
 
 
@@ -29,15 +29,16 @@
     overflow: visible;
     color: white;
     gap: 400px;
-    margin-top: 370px;
-    margin-left: 1300px;
+    margin-top: 320px;
+    margin-left: 1000px;
     border: white solid 1.5px;
-    font-size: 170%;
-    width: 450px;
-    height: 500px;
-    line-height: 1.7;
+    font-size: 130%;
+    width: 280px;
+    height: 300px;
+    line-height: 1.2;
     padding-left: 30px;
     padding: 50px;
+
 
     font-family: Dom;
     text-align: left;
@@ -46,9 +47,9 @@
 .logo-contacts {
     position: absolute;
     overflow: visible;
-    width: 300px;
-    margin-left: 0;
+    width: 250px;
     padding-top: 20px;
+    
 
 }
 
@@ -74,14 +75,14 @@
 
     justify-content: center;
     gap: 10;
-    margin-left: 800px;
+    margin-left: 600px;
     margin-bottom: 30;
     text-decoration: none;
 
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 1030px;
+    margin-top: 800px;
 
 
 }
@@ -96,11 +97,11 @@
 
 #home {
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
 
     color: white;
 
-    font-size: 120%;
+    font-size: 100%;
     font-family: Dom;
     justify-content: center;
 }
