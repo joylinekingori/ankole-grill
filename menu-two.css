@@ -1,16 +1,23 @@
-.location{
+.body{
     display: flex;
+    /* overflow: hidden; */
+    /* position: fixed; */
+    
+}
+body{
+    position: fixed;
+    margin: 0%;
+    
 }
 .kitisuru{
-    position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(images/home\ one.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
-    height:1200px;
-    width: 100%;
+    height:45vw;
+    width: 50vw;
     color: white;
     text-align: center;
+    padding-top: 250px;
    
 }
 .kitisuru p{
@@ -25,15 +32,15 @@
 
 }
 .kilimani{
-    position: relative;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/events1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(images/ankole\ img\ one.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height:1200px;
-    width: 100%;
+    height:2000px;
+    width: 50vw;
     color: white;
     text-align: center;
+    padding-top: 250px;
+    
+
    
 }
 .kilimani p{
@@ -51,14 +58,13 @@
 
     justify-content: center;
     gap: 10;
-    margin-left: 200px;
+    margin-left: 600px;
     text-decoration: none;
-
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 1050px;
-    position: fixed;
+    margin-top: 750px;
+    /* position: fixed; */
 
 
 }
@@ -73,11 +79,9 @@
 
 #home {
     text-decoration: none;
-    padding: 30px;
-
+    padding: 20px;
     color: white;
-
-    font-size: 120%;
+    font-size: 90%;
     font-family: Dom;
     justify-content: center;
 }

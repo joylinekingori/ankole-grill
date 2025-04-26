@@ -38,13 +38,13 @@
 
     justify-content: center;
     gap: 10;
-    margin-left: 520px;
+    margin-left: 580px;
     margin-bottom: 70px;
     text-decoration: none;
     background-color: #141414;
     position: fixed;
     border-radius: 80px;
-    margin-top: 720px;
+    margin-top: 760px;
 
 
 }
@@ -59,11 +59,11 @@
 
 #home {
     text-decoration: none;
-    padding: 30px;
+    padding: 20px;
 
     color: white;
 
-    font-size: 100%;
+    font-size: 80%;
     font-family: Dom;
     justify-content: center;
 }
@@ -212,4 +212,205 @@
 #four {
     width: 2600px;
     height: 1300px;
+}
+@media only screen and (min-width:100px)and(max-width: 415px) {
+
+    .main-container {
+        position: relative;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/home\ one.jpg), url(images/home\ six.png), url(images/home\ three2.jpg), url(images/home\ four.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+            
+    
+    }
+    
+    .body {
+        height: 1200px;
+        width: 100%;
+        overflow: hidden;
+    
+    }
+    
+    .navigation-bar {
+    
+        justify-content: center;
+        gap: 10;
+        margin-left: 580px;
+        margin-bottom: 70px;
+        text-decoration: none;
+        background-color: #141414;
+        position: fixed;
+        border-radius: 80px;
+        margin-top: 760px;
+    
+    
+    }
+    
+    
+    .navigation-bar a {
+        float: left;
+        display: block;
+        text-align: center;
+    
+    }
+    
+    #home {
+        text-decoration: none;
+        padding: 20px;
+    
+        color: white;
+    
+        font-size: 80%;
+        font-family: Dom;
+        justify-content: center;
+    }
+    
+    .reservations {
+        background-color: gray;
+        height: 0.2px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 50px;
+        padding-bottom: 3px;
+    }
+    
+    .home-heading {
+        font-size: 800%;
+        color: black;
+        position: absolute;
+        overflow: visible;
+        margin-left: 650px;
+        margin-top: 350px;
+        color: gray;
+        font-family: jhm;
+    
+    
+    }
+    
+    .home-savour {
+        font-size: 800%;
+        color: black;
+        position: absolute;
+        overflow: visible;
+        margin-left: 710px;
+        margin-top: 380px;
+        color: gray;
+        font-family: jhm;
+    
+    
+    }
+    
+    .home-taste {
+        font-size: 800%;
+        color: black;
+        position: absolute;
+        overflow: visible;
+        margin-left: 10px;
+        margin-top: 380px;
+        color: gray;
+        font-family: jhm;
+    
+    
+    }
+    
+    
+    
+    #svg {
+        width: 100px;
+        height: 250px;
+        position: absolute;
+        overflow: visible;
+        margin-left: 800px;
+        margin-top: 70px;
+    
+    }
+    
+    
+    
+    
+    .slideshow {
+        height:
+            position: relative;
+    }
+    
+    .slideshow>* {
+        animation: 12s autoplay6 infinite linear;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.0
+    }
+    
+    
+    @keyframes autoplay6 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        4% {
+            opacity: 1.0;
+        }
+    
+        33.33% {
+            opacity: 1.0;
+        }
+    
+        38% {
+            opacity: 0.0;
+        }
+    
+        100% {
+            opacity: 0.0;
+        }
+    }
+    
+    .slideshow>*:nth-child(1) {
+        animation-delay: 0s
+    }
+    
+    .slideshow>*:nth-child(2) {
+        animation-delay: 4s
+    }
+    
+    .slideshow>*:nth-child(3) {
+        animation-delay: 8s
+    }
+    
+    .slideshow>*:nth-child(4) {
+        animation-delay: 12s
+    }
+    
+    .slideshow>*:nth-child(5) {
+        animation-delay: 16s
+    }
+    
+    .slideshow img {
+        width: 100%;
+        height: 1150px;
+    }
+    
+    #one {
+        width: 200px;
+        height:20px;
+    
+    }
+    
+    #two {
+        width: 600px;
+        height: 1300px;
+    }
+    
+    #three {
+        width: 2600px;
+        height: 1200px;
+    }
+    
+    #four {
+        width: 2600px;
+        height: 1300px;
+    }
+
+    
 }
